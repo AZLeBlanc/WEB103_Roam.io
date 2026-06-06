@@ -9,7 +9,7 @@ const destinations = [
     description:
       "Paris, a magnificent travel destination, is a city that has always been at the forefront of its time, it is a city that always embraces adversity head-on, whilst inspiring many. It is THE city that produced some of the world's most highly regarded artists of our time, that offers more than just luminescent beauty at night, and architectural genius during the day.",
     imageUrl:
-      "https://img.magnific.com/premium-photo/eiffel-tower-aerial-view-paris_78361-12647.jpg?w=2000",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Paris_at_night_3-3-2013.jpg/960px-Paris_at_night_3-3-2013.jpg",
   },
   {
     id: "tokyo",
@@ -33,7 +33,7 @@ const destinations = [
     description:
       "Cape Town sits at the edge of a continent, framed by the flat-topped drama of Table Mountain on one side and two oceans on the other. It is a city of stunning contrasts - world-class beaches and rugged hiking, vibrant neighborhoods and vast winelands - all within reach of each other in a way few cities can match.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cape_Town_from_Signal_Hill.jpg/1280px-Cape_Town_from_Signal_Hill.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dassies%2C_Cape_Town_%28P1050367%29.jpg/960px-Dassies%2C_Cape_Town_%28P1050367%29.jpg",
   },
   {
     id: "new-york",
@@ -57,7 +57,7 @@ const destinations = [
     description:
       "Where Tokyo races forward, Kyoto holds still. Japan's former imperial capital is a city of wooden temples, moss-covered stone gardens, and geisha districts that have changed little in centuries. It rewards slow travel - the kind where you wake early to beat the crowds to a bamboo grove, or linger over matcha in a tea house tucked behind a shrine gate.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fushimi_Inari-taisha.jpg/1024px-Fushimi_Inari-taisha.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg/960px-Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg",
   },
   {
     id: "buenos-aires",
@@ -69,7 +69,7 @@ const destinations = [
     description:
       "Buenos Aires is the kind of city that gets under your skin. Equal parts European grandeur and Latin American energy, it is a place of wide boulevards, passionate tango, and late dinners that stretch past midnight. The city wears its history openly - in its architecture, its politics, and the pride of its people - and rewards those who take time to look past the surface.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/BA-obelisk.jpg/800px-BA-obelisk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Buenos_Aires_-_Puerto_Madero.jpg/960px-Buenos_Aires_-_Puerto_Madero.jpg",
   },
   {
     id: "santorini",
@@ -81,7 +81,7 @@ const destinations = [
     description:
       "Santorini is one of those places that looks exactly like the photographs - and somehow still manages to exceed them. The volcanic caldera, the white-washed cliffside villages, the sunsets over Oia that draw crowds every evening without apology. It is unapologetically beautiful, best experienced in the shoulder season when the island breathes a little easier.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Santorini_from_above.jpg/1280px-Santorini_from_above.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Thira_%28Santorini%29_-_Fira-01.jpg/960px-Thira_%28Santorini%29_-_Fira-01.jpg",
   },
   {
     id: "marrakech",
@@ -93,7 +93,7 @@ const destinations = [
     description:
       "Marrakech is sensory overload in the best possible way. The medina is a labyrinth of souks, riads, and street food stalls where the smell of spice mixes with leather and wood smoke. Djemaa el-Fna square transforms from a daytime market into a full-on open-air circus by nightfall. It is chaotic, colorful, and completely unlike anywhere else.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Marrakech_Jemaa-el-Fna_Square.jpg/1280px-Marrakech_Jemaa-el-Fna_Square.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Marrakech_skyline_view.jpg/960px-Marrakech_skyline_view.jpg",
   },
 ];
 module.exports = destinations;
