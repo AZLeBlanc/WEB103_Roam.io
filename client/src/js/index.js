@@ -1,7 +1,6 @@
-async function loadDestinations() {
-    const response = await fetch("/destinations");
-    const destinations = await response.json();
+let allDestinations = [];
 
+function renderDestinations(destinations) {
     const main = document.querySelector("main");
 
     const destHTML = destinations.map(destination => `
@@ -20,5 +19,20 @@ async function loadDestinations() {
 
     main.innerHTML = `<div class="card-grid">${destHTML}</div>`;
 }
+
+async function loadDestinations() {
+    const response = await fetch("/destinations");
+    allDestinations = await response.json();
+    renderDestinations(allDestinations);
+}
+
+document.querySelector("#search").addEventListener("input", (e) => {
+    const term = e.target.value.toLowerCase();
+    renderDestinations(allDestinations.filter(destination =>
+        destination.name.toLowerCase().includes(term) ||
+        destination.country.toLowerCase().includes(term) ||
+        destination.continent.toLowerCase().includes(term)
+    ));
+});
 
 loadDestinations();
