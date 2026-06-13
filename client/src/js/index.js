@@ -10,7 +10,7 @@ async function loadDestinations() {
                 <header>
                     <h5>${destination.name}</h5>
                 </header>
-                <img src="${destination.imageUrl}" alt="${destination.name}" />
+                <img src="${destination.imageurl}" alt="${destination.name}" />
                 <footer>
                     <p>${destination.country}, ${destination.continent}</p>
                 </footer>
