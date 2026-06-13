@@ -96,4 +96,4 @@ const destinations = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Marrakech_skyline_view.jpg/960px-Marrakech_skyline_view.jpg",
   },
 ];
-module.exports = destinations;
+export default destinations;
