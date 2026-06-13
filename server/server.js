@@ -11,7 +11,6 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 app.use(express.static(path.join(__dirname, "../client/src")));
-app.use("/assets", express.static(path.join(__dirname, "../client/assets")));
 
 
 // ROUTES

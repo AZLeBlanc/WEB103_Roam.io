@@ -19,12 +19,12 @@ async function loadDetails(id = window.location.pathname.split("/").pop()) {
 
     main.innerHTML = `
         <article>
-            <img src="${destination.imageUrl}" alt="${destination.name}" class="detail-img" />
+            <img src="${destination.imageurl}" alt="${destination.name}" class="detail-img" />
             <p>${destination.description}</p>
             <footer>
                 <ul class="tags">
                     <li>Climate: ${destination.climate}</li>
-                    <li>Visit: ${destination.bestTimeToVisit}</li>
+                    <li>Visit: ${destination.besttimetovisit}</li>
                     <li>Country: ${destination.country}</li>
                     <li>Continent: ${destination.continent}</li>
                 </ul>
